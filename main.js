@@ -69,7 +69,7 @@ function draw() {
   background(bgColor);
   fill(0);
   textSize(20);
-  text("\u2697\ufe0f Configuration de la Titration Virtuelle", 200, 30);
+  text("\u2697\ufe0f Test Du Dosage numerique", 200, 30);
   drawApparatus();
 
   if (result !== null) {
@@ -89,8 +89,9 @@ function drawApparatus() {
   // Support et pince
   stroke(100);
   strokeWeight(4);
-  line(100, 50, 100, 250); // support
+  line(100, 50, 100, 398); // support
   line(100, 70, 300, 70); // barre de pince
+  line(100, 298, 319, 298); // support
 
   // Burette
   noStroke();
